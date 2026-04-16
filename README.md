@@ -1,30 +1,33 @@
-# AI Mock Interview System
+AI Mock Interview System
+🚀 Description
 
-## 🚀 Description
+An AI-powered mock interview platform that analyzes user answers and provides feedback on communication, confidence, and technical skills.
 
-An AI-powered mock interview platform that analyzes user answers and provides feedback based on communication, confidence, and technical depth.
-
-## 🛠 Tech Stack
-
+🛠 Tech Stack
 * Frontend: React.js, Naxt.js, Tailwind CSS
 * Backend: FastAPI (Python), Django
 * Database: PostgresSQL
 
-## ✨ Features
+✨ Features
+AI-generated interview questions
+Answer analysis with feedback
+Scoring based on multiple parameters
+Interactive and responsive UI
 
-* AI-generated interview questions
-* Speech-to-text answer recording
-* Real-time feedback and scoring
-* Interactive UI dashboard
+⚙️ How to Run
+Frontend
 
-## ⚙️ Installation
-
-git clone https://github.com/RukminiBoda23/ai-interview-mocker
-cd ai-interview-mocker
+cd frontend
 npm install
-npm run dev
+npm start
 
-## 📌 Future Improvements
+Backend
 
-* Add authentication
-* Improve AI feedback accuracy
+cd backend
+pip install -r requirements.txt
+uvicorn main --reload
+
+📌 Future Improvements
+Add authentication
+Improve AI feedback accuracy
+Deploy full system
