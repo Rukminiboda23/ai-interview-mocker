@@ -6,9 +6,9 @@ An AI-powered mock interview platform that analyzes user answers and provides fe
 
 ## 🛠 Tech Stack
 
-* Frontend: React.js
-* Backend: FastAPI (Python)
-* Database: MongoDB
+* Frontend: React.js, Naxt.js, Tailwind CSS
+* Backend: FastAPI (Python), Django
+* Database: PostgresSQL
 
 ## ✨ Features
 
@@ -17,13 +17,9 @@ An AI-powered mock interview platform that analyzes user answers and provides fe
 * Real-time feedback and scoring
 * Interactive UI dashboard
 
-## 📸 Screenshots
-
-(Add screenshots here)
-
 ## ⚙️ Installation
 
-git clone https://github.com/YOUR-USERNAME/ai-interview-mocker
+git clone https://github.com/RukminiBoda23/ai-interview-mocker
 cd ai-interview-mocker
 npm install
 npm run dev
